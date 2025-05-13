@@ -8,7 +8,7 @@ This app extracts structured data from invoices (PDFs, images, etc.) and checks 
 
 * OCR for images and image-based PDFs via [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 * Text extraction from native PDFs using [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) and [pdf2image](https://github.com/Belval/pdf2image)
-* Converts other formats using [`markitdown`](https://github.com/Red9/markitdown) (optional)
+* Converts other formats using [`markitdown`](https://github.com/microsoft/markitdown) (optional)
 * Extracts structured invoice data using AI (via [OpenAI API](https://platform.openai.com/) or [DeepSeek](https://deepseek.com))
 
 ### Fraud Detection
@@ -92,6 +92,7 @@ invoice_processing_app/
 
    ```bash
    pip install -r requirements.txt
+   pip install 'markitdown[all]'
    ```
 
 4. Install system tools:
@@ -124,3 +125,5 @@ This project is licensed under the [MIT License](./LICENSE).
 * [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for OCR.
 * [Streamlit](https://streamlit.io/) for the frontend.
 * [DeepSeek](https://deepseek.com) for AI-powered invoice field detection.
+* [Markitdown](https://github.com/microsoft/markitdown) for converting any type of files into text data.
+
