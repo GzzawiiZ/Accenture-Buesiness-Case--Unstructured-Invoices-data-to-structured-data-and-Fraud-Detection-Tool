@@ -9,4 +9,6 @@ pymupdf>=1.21.1
 scikit-learn>=1.2.1
 matplotlib>=3.7.0
 openai>=1.2.0
+python-docx>=0.8.11
+'markitdown[all]'
 # Optional: markitdown - custom library, install separately if available
