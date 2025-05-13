@@ -2,6 +2,17 @@
 
 This app extracts structured data from invoices (PDFs, images, etc.) and checks for signs of fraud. It uses OCR, PDF tools, and machine learning to handle documents and flag anomalies. There's also a web UI built with Streamlit.
 
+
+
+Organizations are often overwhelmed by large volumes of incoming documents (e.g., invoices, contracts, ID documents). Manually processing this information is **time-consuming**, **prone to error**, and **exposes the organization to fraud**. Automated document processing with **OCR (Optical Character Recognition)** can speed up digitization, but it also needs an extra layer to **detect anomalies and fraudulent data in real time**.
+
+## Key Goals of the Tool:
+
+- **Extract structured text** from uploaded documents (e.g., PDFs, images).
+- **Identify anomalies or fraudulent indicators** (e.g., incorrect dates, tampered files, suspicious patterns).
+- **Align with emerging EU AI Act regulations** (e.g., data privacy, accountability, human oversight).
+- **Follow MLOps best practices**, ensuring reliable model development, testing, deployment, and monitoring.
+
 ## Features
 
 ### Document Processing
