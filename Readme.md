@@ -126,6 +126,14 @@ invoice_processing_app/
    ```
 
    This will open the UI at `http://localhost:8501`.
+   
+## Presentation
+
+This repository includes a presentation designed using Canva. ["Solution Presenting"]. 
+
+You can view and edit the presentation directly using the link below:
+
+[Click here to view the presentation on Canva](https://www.canva.com/design/DAGpPtqqgCk/qt6QgzB-RlVbwBCji51SWQ/view?utm_content=DAGpPtqqgCk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc21b369ecd)
 
 ## License
 
